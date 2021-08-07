@@ -1,0 +1,1 @@
+docker run -d -p 9090:9090 -p 5222:5222 -p 5269:5269 -p 5223:5223 -p 7443:7443 -p 7777:7777 -p 7070:7070 -p 5229:5229 -p 5275:5275 --link openfire-mysql:db --name openfire quantumobject/docker-openfire

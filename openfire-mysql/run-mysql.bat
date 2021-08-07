@@ -1,0 +1,2 @@
+:: https://github.com/QuantumObject/docker-openfire
+docker run --name openfire-mysql -e MYSQL_RANDOM_ROOT_PASSWORD=yes -e MYSQL_DATABASE=openfire -e MYSQL_USER=openfireuser -e MYSQL_PASSWORD=openfirepasswd -d mysql

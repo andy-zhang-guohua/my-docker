@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  redis:
+    image: 'redis'
+  app:
+    build: . # 相当于 docker build .
+    ports:
+      - '3000:3000'
+    depends_on:
+      - redis

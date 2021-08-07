@@ -1,0 +1,1 @@
+docker run -p 8080:8080 -e KEYCLOAK_USER=keycloak -e KEYCLOAK_PASSWORD=keycloak123!@# --name keycloak --net keycloak-network andyzhanggh/keycloak

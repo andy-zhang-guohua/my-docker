@@ -1,0 +1,1 @@
+ docker exec -it elastic-hq /bin/bash
